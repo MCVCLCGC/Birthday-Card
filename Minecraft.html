@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe0e9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            max-width: 500px;
+        }
+        .card h1 {
+            color: #ff66a3;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .card p {
+            color: #666666;
+            font-size: 1.2em;
+        }
+        .heart {
+            color: #ff66a3;
+            font-size: 2em;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Happy Birthday!</h1>
+        <p>Dear MC BC Friend,</p>
+        <p>Wishing you all the happiness, love, and joy on your special day. You mean the world to me, and I'm so grateful to have you in my life.</p>
+        <p class="heart">❤️</p>
+        <p>With all my love,<br>Your Pahadi</p>
+    </div>
+</body>
+</html>
